@@ -1,0 +1,19 @@
+@mixin btn-default {
+  // 버튼 스타일 초기화 믹스인
+  @include input-reset;
+
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn {
+  @include bg-op($s: auto);
+  @include btn-default;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5px;
+  transition: all 0.3s;
+}

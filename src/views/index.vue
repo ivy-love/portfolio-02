@@ -65,7 +65,7 @@
           </h5>
           <div class="about-grp">
             <div class="skill-img-wrap">
-              <div class="img-grp" v-for="(item, idx) in 16" :key="idx">
+              <div class="img-grp" v-for="(item, idx) in 18" :key="idx">
                 <img :src="require(`@/assets/images/img_skill_icon_${idx + 1}.svg`)" alt="스킬 아이콘 이미지" class="img" loading="lazy">
               </div>
             </div>
@@ -647,10 +647,8 @@ export default {
         start: "top 80%",
         onEnter: () => {
           document.querySelector(".text-section .line").classList.add("is-active");
-          console.log("Enter triggered for .line");
         },
         onLeaveBack: () => {
-          console.log("LeaveBack triggered for .line");
           document.querySelector(".text-section .line").classList.remove("is-active");
         },
         // markers: true

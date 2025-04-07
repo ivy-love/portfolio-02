@@ -114,3 +114,21 @@
     transform: scale3d(1, 1, 1);
   }
 }
+
+.ani-blur {
+  animation-name: txt-blur;
+  animation-duration: 1.3s;
+  animation-delay: 0.1s;
+  animation-timing-function: cubic-bezier(0.82, 0.23, 0.25, 0.86);
+  animation-iteration-count: 1;
+  animation-fill-mode: backwards;
+}
+
+@keyframes txt-blur {
+  0% {
+    filter: blur(8px);
+  }
+  100% {
+    filter: blur(0);
+  }
+}

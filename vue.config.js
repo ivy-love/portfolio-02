@@ -1,4 +1,7 @@
 module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/https://ivy-love.github.io/portfolio-02/'  // 예: '/my-vue-project/'
+    : '/',
   css: {
     loaderOptions: {
       sass: {

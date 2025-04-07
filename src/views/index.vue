@@ -38,8 +38,8 @@
           <img src="@/assets/images/img_intro_obj.png" alt="" class="img ani-blur" loading="lazy">
         </div>
         <div class="intro-title-grp">
-          <h3 class="intro-title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">Kim Ji Hee</h3>
-          <h3 class="intro-title right" data-aos="fade-up" data-aos-duration="500" data-aos-delay="700">Web Pusblisher</h3>
+          <h3 class="intro-title" data-aos="fade-up" data-aos-duration="550" data-aos-delay="500">Kim Ji Hee</h3>
+          <h3 class="intro-title right" data-aos="fade-up" data-aos-duration="550" data-aos-delay="700">Web Pusblisher</h3>
         </div>
         <div class="scroll-grp">
           <div class="scroll"></div>

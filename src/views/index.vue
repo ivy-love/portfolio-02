@@ -383,7 +383,7 @@
             <div class="input-flex">
               <div class="input">
                 <label for="" class="label-sm">성함</label>
-                <input id="" type="text" placeholder="업체명을 입력해주세요." class="inp">
+                <input id="" type="text" placeholder="성함을 입력해주세요." class="inp">
               </div>
               <div class="input">
                 <label for="" class="label-sm">연락처</label>
@@ -395,7 +395,7 @@
               <textarea name="" id="" cols="30" rows="10" placeholder="문의사항을 입력해주세요" class="textarea"></textarea>
             </div>
             <div class="btn-grp">
-              <button type="button" class="btn-more">문의하기</button>
+              <button type="button" class="btn btn-more">문의하기</button>
               <i class="icon icon-arrow scroll-horizontal-img"></i>
             </div>
           </div>

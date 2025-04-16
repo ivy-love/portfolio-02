@@ -10,6 +10,7 @@ import 'aos/dist/aos.css';  // AOS 스타일 파일 불러오기
 import AOS from 'aos';       // AOS 라이브러리 불러오기
 import Lenis from '@studio-freight/lenis'
 
+
 // AOS 초기화
 AOS.init({
   duration: 1000,  // 애니메이션 지속 시간

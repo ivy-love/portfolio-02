@@ -1,3 +1,8 @@
+:root {
+  --white-color: #ffffff;
+  --black-color: #000000;
+}
+
 // 가로 방향 애니메이션
 .scroll-horizontal-img {
   animation-name: horizontal-scroll;
@@ -50,6 +55,31 @@
   100% {
     opacity: 0.3;
     transform: translateY(30%);
+  }
+}
+
+.scroll-vertical-img-up {
+  animation-name: vertical-scroll-up;
+  animation-duration: 0.8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+}
+
+@keyframes vertical-scroll-up {
+  0% {
+    opacity: 0.3;
+    transform: translateY(30%);
+  }
+
+  40% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-30%);
   }
 }
 
@@ -112,6 +142,28 @@
   }
   90% {
     transform: scale3d(1, 1, 1);
+  }
+}
+
+// 딸랑딸랑 애니메이션2
+@keyframes move {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(2deg);
+  }
+  24% {
+    transform: rotate(-2deg);
+  }
+  28% {
+    transform: rotate(2deg);
+  }
+  32% {
+    transform: rotate(-2deg);
+  }
+  36% {
+    transform: rotate(0deg);
   }
 }
 

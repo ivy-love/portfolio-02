@@ -1,6 +1,10 @@
 .portfolio-footer {
-  background-color: #fff;
+  background-color: var(--black-color);
   padding-bottom: 50px;
+
+  @include tablet {
+    padding-bottom: 20px;
+  }
 
   .ft-center {
     max-width: 1860px;
@@ -9,44 +13,16 @@
     padding: 0 15px;
   }
 
-  .ft-link-grp {
-    padding-top: 35px;
-    margin-bottom: 20px;
-    border-top: 1px solid rgba(#000, 0.5);
-
-    .ft-link {
-      position: relative;
-      display: inline-block;
-      margin-right: 15px;
-      padding-right: 15px;
-      font-size: 20px;
-      font-weight: 200;
-      color: #000;
-
-      &:last-child {
-        @include make-after {
-          display: none;
-        }
-      }
-
-      @include make-after {
-        @include absolute(50%, auto, auto, 0);
-        position: absolute;
-        top: 50%;
-        left: auto;
-        // right: 0;
-        width: 1px;
-        height: 24px;
-        background-color: #000;
-
-        transform: translateY(-50%);
-      }
-    }
-  }
-
   .copylight {
+    padding: 20px 0 0 5px;
+    border-top: 1px solid rgba(#fff, 0.5);
     font-size: 15px;
     font-weight: 200;
-    color: #000;
+    color: var(--white-color);
+
+    @include tablet {
+      padding-top: 8px;
+      font-size: 12px;
+    }
   }
 }

@@ -6,9 +6,9 @@
 
 // 보이진 않지만 리딩되는 영역
 .voice-only {
-  @include absolute($l: -9999rem);
-
   overflow: hidden;
+  position: absolute;
+  left: -9999rem;
   width: 1px;
   height: 1px;
   color: transparent;
@@ -163,19 +163,4 @@
   &::-webkit-scrollbar-thumb {
     background-color: color(sub);
   }
-
-  @include ie-style {
-    scrollbar-arrow-color: color(main);
-    scrollbar-face-color: color(main);
-    scrollbar-track-color: color(sub);
-  }
-}
-
-// .dd {
-//   transform: translateY(150%);
-//   transition: 0.2s ease-in-out 0.7s;
-// }
-
-.delay1 {
-  transition-delay: 5s;
 }

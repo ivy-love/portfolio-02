@@ -1,13 +1,11 @@
 
 <template>
-  <div>
-    <div class="org-item">
-      <div class="org-grp">
-        <em class="org-title">{{ title }}</em>
-        <p v-if="detail" class="org-detail">{{ detail }}</p>
-      </div>
-      <p class="period">{{ period }}</p>
+  <div class="org-item">
+    <div class="org-grp">
+      <em class="org-title">{{ title }}</em>
+      <p v-if="detail" class="org-detail">{{ detail }}</p>
     </div>
+    <p class="period">{{ period }}</p>
   </div>
 </template>
 

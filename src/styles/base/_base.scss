@@ -225,7 +225,7 @@ html {
   -webkit-tap-highlight-color: transparent;
   -webkit-text-size-adjust: 100%;
   word-break: keep-all;
-  font-size: 16px;
+  font-size: 62.5%;
 }
 
 a {
@@ -273,6 +273,8 @@ table {
 }
 
 input {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
   outline: none;
 }
 

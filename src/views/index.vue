@@ -62,7 +62,7 @@
               </span>
             </div>
             <span class="title">Publisher</span>
-            <button type="button" class="btn btn-about" onclick="window.open('https://aluminum-okra-bac.notion.site/0727de3b9b984978992162f1639d558c')">Go to Resume</button>
+            <button type="button" class="btn btn-about" onclick="window.open('https://www.notion.so/1d77439c15b880259455d94a91f03020')">Go to Resume</button>
           </div>
           <div class="about-grp">
             <div class="skill-img-wrap">

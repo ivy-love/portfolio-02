@@ -4,7 +4,7 @@ name: Build and Commit Dist
 on:
   push:
     branches:
-      - main # 👉 main 브랜치에 push할 때만 실행됨
+      - main
 
 jobs:
   build:

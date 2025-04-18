@@ -52,7 +52,7 @@
       <!-- about-section : START -->
       <section id="about-section" class="about-section">
         <h2 class="voice-only">
-          어바웃 영역
+          어바웃 영역123
         </h2>
         <div class="about-wrapper">
           <div class="about-title-grp">

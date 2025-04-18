@@ -1,13 +1,13 @@
 # .github/workflows/deploy.yml
-name: Deploy to GitHub Pages
+name: Build and Commit Dist
 
 on:
   push:
     branches:
-      - main
+      - main # 👉 main 브랜치에 push할 때만 실행됨
 
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -25,9 +25,10 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: gh-pages
+      - name: Commit dist folder
+        run: |
+          git config user.name "jiheek"
+          git config user.email "blueskae_@naver.com"
+          git add dist
+          git commit -m "kjh"
+          git push

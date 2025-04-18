@@ -1,7 +1,7 @@
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-    ? 'https://ivylove.github.io/portfolio-02/'
-    : '/',
+  ? '/portfolio-02/'
+  : '/',
   outputDir: 'docs',
   css: {
     loaderOptions: {
